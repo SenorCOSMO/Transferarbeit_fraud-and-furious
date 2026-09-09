@@ -6,7 +6,7 @@ Datensatz **D – Credit Card Fraud Detection** (binäre Klassifikation, stark u
 ## 1. Repository klonen
 ```bash
 git clone <REPO-URL>
-cd DSC_TA_Halter_Nachname2
+cd DSC_TA_Unternaehrer_Halter
 ```
 
 ## 2. Umgebung aufsetzen
@@ -44,8 +44,8 @@ nbstripout --install
 ## 5. Branch-Workflow
 ```
 main  ── stabile Basis (Teil 1 + Teil 2, Split, evaluate_model)
- ├── feature/model-logreg   (Daniel:  Logistic Regression)
- └── feature/model-rf       (Partner: Random Forest)
+ ├── feature/model-logreg   (Matthias:  Logistic Regression)
+ └── feature/model-rf       (Daniel: Random Forest)
 ```
 Kontrakt: beide Modelle nutzen `X_train_scaled, X_test_scaled, y_train, y_test`
 und `evaluate_model(...)` aus der Basis. Ergebnis je in `results_logreg` / `results_rf`.
