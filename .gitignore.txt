@@ -1,0 +1,21 @@
+# ---- Daten (zu gross fuer GitHub: creditcard.csv ~150 MB) ----
+data/
+*.csv
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.conda/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ---- Hilfsdateien / IDE ----
+executed_check.ipynb
+.vscode/
+.idea/
+.DS_Store
